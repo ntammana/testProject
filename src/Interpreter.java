@@ -1,7 +1,3 @@
-//Comp 141 Assignment 7
-//Neha Tammana
-//Contains main function 
-
 import java.util.*;
 import java.io.*;
 
