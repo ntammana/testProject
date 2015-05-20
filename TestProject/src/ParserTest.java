@@ -1,9 +1,4 @@
-//Comp 141 Assignment 7
-//Neha Tammana
 
-// ParserTest.java - test driver for scanner module
-// COMP141 - Spring 2015 - HW 6 Instructor's  Solution
-// Author: Michael Doherty
 
 import java.util.Scanner;
 import java.util.List;

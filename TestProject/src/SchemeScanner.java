@@ -1,9 +1,4 @@
-//Comp 141 Assignment 7
-//Neha Tammana
 
-// SchemeScanner.java - scanner module for simplified version of Scheme
-// COMP141 - Spring 2015 - HW 5 Instructor's  Solution
-// Author: Michael Doherty
 
 import java.util.List;
 import java.util.ArrayList;

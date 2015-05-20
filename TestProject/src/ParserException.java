@@ -1,9 +1,4 @@
-//Comp 141 Assignment 7
-//Neha Tammana
 
-// ParserException.java
-// COMP141 - Spring 2015 - HW 6 Instructor's  Solution
-// Author: Michael Doherty
 
 class ParserException extends Throwable
 {

@@ -1,10 +1,4 @@
-//Comp 141 Assignment 7
-//Neha Tammana
 
-// Parser.java - Parser module for a simplified version of Scheme.
-// COMP141 - Spring 2015 - HW 6 Instructor's  Solution
-// Author: Michael Doherty
-//
 // A Parser object receives a list of Token pointers
 //   representing a simplified Scheme expression and generates
 //   an abstract syntax tree representing the expression.
@@ -19,7 +13,6 @@
 import java.util.List;
 import java.util.Iterator;
 
-//changessss
 class Parser
 {
 	public SchemeObject parse(List<Token> _tokens) throws ParserException

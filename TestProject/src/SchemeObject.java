@@ -1,9 +1,4 @@
-//Comp 141 Assignment 7
-//Neha Tammana
 
-// SchemeObjects.java - Expression component objects for a simplified version of Scheme.
-// COMP141 - Spring 2015 - HW 6 Instructor's  Solution
-// Author: Michael Doherty
 
 public abstract class SchemeObject
 {};
