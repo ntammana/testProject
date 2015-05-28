@@ -4,5 +4,5 @@
 cd ~/TestProject/nttestproject
 svn update
 svn add * --force
-svn commit -m "automatic SVN push"
+svn commit -m "automatic SVN push using script"
 

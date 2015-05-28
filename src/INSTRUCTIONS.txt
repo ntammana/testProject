@@ -6,3 +6,4 @@ Instructions to run:
 - compile Interpreter.java
 - run Interpreter
 - run expressions
+testing 9:17
