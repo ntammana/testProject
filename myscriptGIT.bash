@@ -8,6 +8,6 @@ git push origin master
 cd ./testProject
 for f in *
 do
-	cp -v -r $f ../testProjectSVN/
+	cp -v -r $f ../testProjectSVN/nttestproject
 done
  
