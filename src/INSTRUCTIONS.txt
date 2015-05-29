@@ -6,6 +6,4 @@ Instructions to run:
 - compile Interpreter.java
 - run Interpreter
 - run expressions
-deleted testing lines
-practice for demo 
-added a file new try?
+revised bash script...testing
