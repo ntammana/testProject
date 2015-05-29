@@ -8,3 +8,4 @@ Instructions to run:
 - run expressions
 revised bash script...testing
 changed -v 
+confused
