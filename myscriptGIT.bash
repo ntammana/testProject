@@ -18,7 +18,7 @@ echo "moving project to local svn directory"
 cd ./testProject
 for f in *
 do
-	cp -v -r $f ../testProjectSVN/nttestproject
+	cp -r $f ../testProjectSVN/nttestproject
 done
 
 #bash script to add commit and push files into svn directory
