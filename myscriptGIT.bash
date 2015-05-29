@@ -10,10 +10,10 @@ for f in *
 do
 	cp -v -r $f ../testProjectSVN/nttestproject
 done
+
 #bash script to add commit and push files into svn directory
 cd ~/testProjectSVN/nttestproject
 svn update
 svn add * --force
 
-svn commit -m "$desc"
- 
+svn commit -m "$desc" 
