@@ -87,7 +87,7 @@ class SchemeScanner
 		return token;
 	}*/
 
-	/*private Token scanBoolean() throws ScannerException
+	private Token scanBoolean() throws ScannerException
 	{
 		if (next_char != '#')
 			throw new ScannerException(new String("badly formed boolean - expecting #"));
@@ -101,7 +101,7 @@ class SchemeScanner
 			throw new ScannerException(new String("badly formed boolean - expecting t or f"));
 		advanceCursor();
 		return new BooleanToken(value);
-	}*/
+	}
 
 	private Token scanSymbol() throws ScannerException
 	{

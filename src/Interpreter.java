@@ -20,13 +20,13 @@ class Interpreter {
 				System.out.println("symbol:       " + sToken.getValue());
 				//break;
 			}
-			/*else if(token instanceof BooleanToken)
+			else if(token instanceof BooleanToken)
 			{
 				BooleanToken bToken = (BooleanToken)token;
 			//case SymbolToken:
 				System.out.println("boolean:       " + bToken.getValue());
 				//break;
-			}*/
+			}
 			else if (token instanceof IntegerToken)
 			{
 				IntegerToken itoken = (IntegerToken)token;

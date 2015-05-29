@@ -26,11 +26,11 @@ class ParserTest
 				SymbolToken stoken = (SymbolToken)token;
 				System.out.println("symbol:       " + stoken.getValue());
 			}
-			/*else if (token instanceof BooleanToken)
+			else if (token instanceof BooleanToken)
 			{
 				BooleanToken btoken = (BooleanToken)token;
 				System.out.println("boolean:      " + btoken.getValue());
-			}*/
+			}
 			else if (token instanceof IntegerToken)
 			{
 				IntegerToken itoken = (IntegerToken)token;

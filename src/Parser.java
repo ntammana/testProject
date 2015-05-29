@@ -93,11 +93,11 @@ class Parser
 	        String s = ((SymbolToken)curr_token).getValue();
 	        thisnode = new SymbolAtom(s);
 		}
-		/*else if (curr_token instanceof BooleanToken)
+		else if (curr_token instanceof BooleanToken)
 		{
 			boolean n = ((BooleanToken)curr_token).getValue();
 			thisnode = new BooleanAtom(n);
-		}*/
+		}
 		else if (curr_token instanceof IntegerToken)
 		{
 			long n = ((IntegerToken)curr_token).getValue();
