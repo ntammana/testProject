@@ -7,7 +7,4 @@ Instructions to run:
 - run Interpreter
 - run expressions
 revised bash script...testing
-changed -v 
-confused
-more confused
-
+figured it out!
