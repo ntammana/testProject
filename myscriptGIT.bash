@@ -23,7 +23,7 @@ done
 
 #bash script to add commit and push files into svn directory
 read -p "Ready to commit and push into svn directory? (y/n)" svnanswer
-if [$svnanswer == "y"]
+if [ $svnanswer = y ]
 then
 {
 	cd ~/testProjectSVN/nttestproject
