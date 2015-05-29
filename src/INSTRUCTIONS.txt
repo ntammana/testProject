@@ -1,10 +1,10 @@
 Neha Tammana Assignment 7
 Using Java
 
-Compiler: JavaSE-1.9
+Compiler: JavaSE-1.8
 Instructions to run:
 - compile Interpreter.java
 - run Interpreter
 - run expressions
 revised bash script...testing
-figured it out!
+adding this for the demo 
