@@ -29,7 +29,7 @@ if [ $svnanswer = y ]
 then
 {
 	cd ~/nttestproject/src
-	svn update
+#	svn update
 	svn add * --force
 
 	svn commit -m "$desc" 
