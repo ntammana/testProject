@@ -16,11 +16,12 @@ else
 fi
 echo "moving project to local svn directory"
 #cd ./testProject
-rm -rf ~/testProjectSVN/nttestproject
-mkdir ~/testProjectSVN/nttestproject
+rm -rf ~/testProjectSVN/nttestproject/src/testing
+	
+mkdir ~/testProjectSVN/nttestproject/src/testing4
 for f in *
 do
-	cp -r $f ../testProjectSVN/nttestproject
+	cp -r $f ../testProjectSVN/nttestproject/src/testing4
 done
 
 #bash script to add commit and push files into svn directory
