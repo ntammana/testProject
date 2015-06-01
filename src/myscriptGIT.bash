@@ -16,8 +16,8 @@ else
 fi
 echo "moving project to local svn directory"
 cd ./testProject/src
-rm -rf ~/nttestproject/src
-mkdir ~/nttestproject/src
+#rm -rf ~/nttestproject/src
+#mkdir ~/nttestproject/src
 for f in *
 do
 	cp -r $f ../nttestproject/src
@@ -28,7 +28,7 @@ read -p "Ready to commit and push into svn directory? (y/n)" svnanswer
 if [ $svnanswer = y ]
 then
 {
-	cd ~/testProjectSVN/nttestproject
+	cd ~/nttestproject
 	svn update
 	svn add * --force
 
