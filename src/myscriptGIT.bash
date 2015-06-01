@@ -15,13 +15,12 @@ else
 }
 fi
 echo "moving project to local svn directory"
-#cd ./testProject
-rm -rf ~/testProjectSVN/nttestproject/src/testing4
-	
-mkdir ~/testProjectSVN/nttestproject/src/testing4
+cd ./testProject/src
+rm -rf ~/nttestproject/src
+mkdir ~/nttestproject/src
 for f in *
 do
-	cp -r $f ../testProjectSVN/nttestproject/src/testing4
+	cp -r $f ../nttestproject/src
 done
 
 #bash script to add commit and push files into svn directory
@@ -33,7 +32,7 @@ then
 	svn update
 	svn add * --force
 
-	svn commit --force-log -m "$desc" 
+	svn commit -m "$desc" 
 }
 else
 {
