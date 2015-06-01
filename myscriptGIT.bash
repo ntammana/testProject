@@ -33,7 +33,7 @@ then
 	svn update
 	svn add * --force
 
-	svn commit -m "$desc" 
+	svn commit --force-log -m "$desc" 
 }
 else
 {
