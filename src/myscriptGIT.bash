@@ -20,7 +20,7 @@ cd ./testProject/src
 #mkdir ~/nttestproject/src
 for f in *
 do
-	cp -r $f ../nttestproject/src
+	cp -r $f ~/nttestproject/src
 done
 
 #bash script to add commit and push files into svn directory
