@@ -16,7 +16,7 @@ else
 fi
 echo "moving project to local svn directory"
 #cd ./testProject
-rm -rf ../testProjectSVN/nttestproject
+rm -rf ~/testProjectSVN/nttestproject
 for f in *
 do
 	cp -r $f ../testProjectSVN/nttestproject
