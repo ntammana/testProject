@@ -28,6 +28,7 @@ read -p "Ready to commit and push into svn directory? (y/n)" svnanswer
 if [ $svnanswer = y ]
 then
 {
+	svn delete -r ~/nttestproject/src
 	cd ~/nttestproject/src
 	svn update
 	svn add * --force
