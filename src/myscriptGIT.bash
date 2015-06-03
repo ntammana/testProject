@@ -15,7 +15,7 @@ else
 }
 fi
 echo "moving project to local svn directory"
-#cd ./testProject/src
+cd ~/testProject/src
 rm -rf ~/nttestproject/src
 mkdir ~/nttestproject/src
 for f in *
