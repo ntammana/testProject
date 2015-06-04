@@ -16,8 +16,7 @@ else
 fi
 echo "moving project to local svn directory"
 rm -rf ~/nttestproject/src
-svn delete ~/nttestproject/src
-cd ~/testProject/src
+#cd ~/testProject/src
 mkdir ~/nttestproject/src
 for f in *
 do
