@@ -31,7 +31,7 @@ then
 	cd ~/nttestproject/src
 #	svn update
 	svn add * --force
-
+	svn rm -rq diff ./testProject/src ./nttestproject/src
 	svn commit -m "$desc" 
 }
 else
