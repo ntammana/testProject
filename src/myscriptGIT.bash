@@ -15,6 +15,8 @@ else
 }
 fi
 echo "moving project to local svn directory"
+touch differences.txt
+diff -qr ./testProject/src ./nttestproject/src >differences.txt
 rm -rf ~/nttestproject/src
 #cd ~/testProject/src
 mkdir ~/nttestproject/src
@@ -26,6 +28,8 @@ done
 #bash script to add commit and push files into svn directory
 read -p "Ready to commit and push into svn directory? (y/n)" svnanswer
 if [ $svnanswer = y ]
+touch difference.txt
+diff -qr 
 then
 {
 	cd ~/nttestproject/src
