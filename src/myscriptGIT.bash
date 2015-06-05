@@ -15,9 +15,9 @@ else
 }
 fi
 echo "moving project to local svn directory"
-#touch differences.txt
-#diff -qr ~/testProject/src ~/nttestproject/src >differences.txt
-#rm -rf ~/nttestproject/src
+touch differences.txt
+diff -qr ~/testProject/src ~/nttestproject/src >differences.txt
+rm -rf ~/nttestproject/src
 #cd ~/testProject/src
 mkdir ~/nttestproject/src
 for f in *
