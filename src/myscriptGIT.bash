@@ -29,13 +29,12 @@ done
 read -p "Ready to commit and push into svn directory? (y/n)" svnanswer
 if [ $svnanswer = y ]
 touch difference.txt
-diff -qr 
 then
 {
 	cd ~/nttestproject/src
 #	svn update
 	svn add * --force
-	svn rm -rq diff ./testProject/src ./nttestproject/src
+	svn rm -qr diff ./testProject/src ./nttestproject/src
 	svn commit -m "$desc" 
 }
 else
