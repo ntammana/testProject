@@ -1,4 +1,8 @@
 #!/bin/bash
+CONFIG_FILE=~/bashconfig.conf
+if [[ -f $CONFIG_FILE ]]; then
+	. $CONFIG_FILE
+fi
 
 read -p "Ready to push to git? (y/n)" gitanswer
 if [ $gitanswer = y ]
@@ -16,13 +20,13 @@ else
 fi
 echo "moving project to local svn directory"
 touch differences.txt
-diff -qr ~/testProject/src ~/nttestproject/src >differences.txt
-rm -rf ~/nttestproject/src
+diff -qr $GIT $SVN >differences.txt
+rm -rf $SVN
 #cd ~/testProject/src
-mkdir ~/nttestproject/src
+mkdir $SVN
 for f in *
 do
-	cp -r $f ~/nttestproject/src
+	cp -r $f $SVN
 done
 
 #bash script to add commit and push files into svn directory
@@ -31,10 +35,10 @@ if [ $svnanswer = y ]
 touch difference.txt
 then
 {
-	cd ~/nttestproject/src
+	cd $SVN
 #	svn update
 	svn add * --force
-	svn rm -qr diff ./testProject/src ./nttestproject/src
+	svn rm -qr diff $GIT $SVN
 	svn commit -m "$desc" 
 }
 else
