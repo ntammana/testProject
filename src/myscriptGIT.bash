@@ -38,7 +38,7 @@ then
 	cd $SVN
 #	svn update
 	svn add * --force
-	svn rm -qr diff $GIT $SVN
+	svn rm -qr diff $GIT1 $SVN1
 	svn commit -m "$desc" 
 }
 else
