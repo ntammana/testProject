@@ -1,0 +1,4 @@
+Files /home/scryintern/testProject/src/differences.txt and /home/scryintern/nttestproject/src/differences.txt differ
+Only in /home/scryintern/testProject/src: .I.swp
+Only in /home/scryintern/testProject/src: june8
+Files /home/scryintern/testProject/src/myscriptGIT.bash and /home/scryintern/nttestproject/src/myscriptGIT.bash differ
