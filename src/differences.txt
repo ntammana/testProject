@@ -1,3 +1,7 @@
+Only in /home/scryintern/nttestproject/src: BooleanToken.java
 Files /home/scryintern/testProject/src/differences.txt and /home/scryintern/nttestproject/src/differences.txt differ
+Only in /home/scryintern/nttestproject/src: IntegerToken.java
 Only in /home/scryintern/testProject/src: .I.swp
-Only in /home/scryintern/nttestproject/src: june9.txt
+Only in /home/scryintern/nttestproject/src: ParserTest.java
+Only in /home/scryintern/nttestproject/src: ScannerException.java
+Only in /home/scryintern/nttestproject/src: SymbolTable.java
