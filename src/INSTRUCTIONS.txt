@@ -6,5 +6,3 @@ Instructions to run:
 - compile Interpreter.java
 - run Interpreter
 - run expressions
-revised bash script...testing
-adding this for the demo 
