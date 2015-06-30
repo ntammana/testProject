@@ -1,2 +1,0 @@
-Files /home/scryintern/testProject/src/differences.txt and /home/scryintern/nttestproject/differences.txt differ
-Only in /home/scryintern/testProject/src: .I.swp
